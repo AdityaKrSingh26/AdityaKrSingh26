@@ -52,11 +52,7 @@
 
 
 
-
-### 🔝 Top Contributed Repo
 <div align="center">
-    <img src="https://github-contributor-stats.vercel.app/api?username=AdityaKrSingh26&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo" /><br/>
-    <hr/>
     <a href="https://visitcount.itsvg.in">
         <img src="https://visitcount.itsvg.in/api?id=AdityaKrSingh26&icon=0&color=12" alt="Visit Count" />
     </a>
