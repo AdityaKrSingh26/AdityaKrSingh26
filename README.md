@@ -41,22 +41,3 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/adityakrsingh26) 
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AdityaKrSingh26) 
 
-
-
-# 📊 GitHub Stats:
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AdityaKrSingh26&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub Stats" /><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaKrSingh26&theme=highcontrast&hide_border=false" alt="GitHub Streak Stats" /><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaKrSingh26&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
-</div>
-
-
-
-<div align="center">
-    <a href="https://visitcount.itsvg.in">
-        <img src="https://visitcount.itsvg.in/api?id=AdityaKrSingh26&icon=0&color=12" alt="Visit Count" />
-    </a>
-</div>
-
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
