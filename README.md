@@ -2,7 +2,7 @@
 <h3 align="center">I'm a passionate Full Stack Developer</h3>
 
 # 💫 About Me:
-<br>🌱 I’m currently learning Web based technologies<br>🔥 I'm also enhancing myself in the field of Machine Learning <br>👯 I’m looking to collaborate on Open Source Projects<br>📫 Reach out to me at my Email : adityakrsingh2604@gmail.com
+<br>🌱 I’m currently learning Web based technologies<br>🔭 Contributor at **Google Summer of Code 2025** with SugarLabs <br>👯 I’m looking to collaborate on Open Source Projects<br>📫 Reach out to me at my Email : adityakrsingh2604@gmail.com
 
 
 # 💻 Tech Stack:
@@ -39,5 +39,9 @@
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/praise_dark_lord)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/adityakrsingh26) 
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AdityaKrSingh26) 
+[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AdityaKrSingh26)  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)](https://github.com/AdityaKrSingh26) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-5340FF?logo=firefox&logoColor=white)](https://www.aditya-singh.me)  
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:adityakrsingh2604@gmail.com)
+
 
