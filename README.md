@@ -18,7 +18,7 @@ const aditya = {
 };
 ```
 
-- 💼 SDE Intern @ **project44**
+- 💼 Software Engineer @ **project44** | Ex- Software Engineering Specialist @xAI
 - 🔭 Building **3D Human Body Activity Tool** with Three.js for GSoC 2025
 - 🌱 Passionate about **distributed systems** and **encryption technologies**
 - 💬 Ask me about **React, Node.js, Go, or DSA**
