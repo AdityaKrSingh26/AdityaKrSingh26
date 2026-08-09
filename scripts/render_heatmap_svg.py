@@ -1,5 +1,6 @@
 """Render data/contributions.json as an animated contribution heatmap SVG."""
 import json
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -12,8 +13,10 @@ GAP = 3
 STEP = CELL + GAP
 MARGIN_LEFT = 10
 MARGIN_TOP = 10
+MONTH_H = 16
 LEGEND_H = 26
 FOOTER_H = 22
+MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
 def main():
@@ -26,13 +29,15 @@ def main():
     grid_w = weeks * STEP - GAP
     grid_h = 7 * STEP - GAP
     width = MARGIN_LEFT * 2 + grid_w
-    height = MARGIN_TOP + grid_h + LEGEND_H + FOOTER_H
+    height = MONTH_H + MARGIN_TOP + grid_h + LEGEND_H + FOOTER_H
 
+    month_labels = []
+    seen_months = set()
     rects = []
     for d in days:
         x = MARGIN_LEFT + d["week"] * STEP
-        y = MARGIN_TOP + d["day"] * STEP
-        delay = (d["week"] + d["day"]) * 6
+        y = MONTH_H + MARGIN_TOP + d["day"] * STEP
+        delay = (d["week"] + d["day"]) * 8
         color = PALETTE[d["level"]]
         title = f"{d['count']} contribution{'s' if d['count'] != 1 else ''} on {d['date']}"
         rects.append(
@@ -40,14 +45,20 @@ def main():
             f'fill="{color}" class="box" style="animation-delay:{delay}ms"><title>{title}</title></rect>'
         )
 
-    legend_y = MARGIN_TOP + grid_h + 14
+        if d["day"] == 0:
+            month = date.fromisoformat(d["date"]).month
+            if month not in seen_months:
+                seen_months.add(month)
+                month_labels.append(f'<text x="{x}" y="{MONTH_H - 4}" font-size="10">{MONTH_NAMES[month - 1]}</text>')
+
+    legend_y = MONTH_H + MARGIN_TOP + grid_h + 14
     legend_x = width - MARGIN_LEFT - (len(PALETTE) * (CELL + 4) + 60)
     legend_boxes = []
     for i, color in enumerate(PALETTE):
         lx = legend_x + 40 + i * (CELL + 4)
         legend_boxes.append(f'<rect x="{lx}" y="{legend_y - 9}" width="{CELL}" height="{CELL}" rx="2" fill="{color}"/>')
 
-    footer_y = MARGIN_TOP + grid_h + LEGEND_H + 16
+    footer_y = MONTH_H + MARGIN_TOP + grid_h + LEGEND_H + 16
     streak = stats["current_streak"]
     longest = stats["longest_streak"]
     footer = (
@@ -65,6 +76,7 @@ def main():
   }}
 </style>
 <rect width="{width}" height="{height}" fill="#0d1117"/>
+{''.join(month_labels)}
 {''.join(rects)}
 <text x="{legend_x}" y="{legend_y}" font-size="11">Less</text>
 {''.join(legend_boxes)}

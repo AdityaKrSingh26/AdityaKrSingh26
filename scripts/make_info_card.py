@@ -11,11 +11,10 @@ LINE_H = 24
 TITLE_H = 34
 
 ROWS = [
-    ("Now", "Software Engineer I @ project44"),
+    ("Now", "Software Engineer @ project44"),
     ("Prev", "xAI (Specialist), GSoC 2025 @ SugarLabs"),
     ("Stack", "Go, Java, Python, Spring Boot, PostgreSQL, Kafka"),
     ("AI/LLM", "RAG, LangChain, LangGraph, MCP"),
-    ("Notes", "LeetCode top 3.28% (463) - 600+ DSA solved"),
 ]
 
 LABEL_COLOR = "#7ee787"
