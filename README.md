@@ -3,23 +3,16 @@
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+
+<h3><code>aditya@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="759" />
+
+<br><br>
+
+<h3><code>aditya@github ~ $ neofetch</code></h3>
+<img src="./info-card.svg" width="490" />
+
 </div>
-
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
-
-```javascript
-const aditya = {
-    location: "Bangalore, Karnataka, India",
-    education: "B.Tech in IT @ IIIT Gwalior",
-    currentRole: "Software Engineer I @ project44",
-    past: ["Software Engineering Specialist @ xAI", "GSoC 2025 @ SugarLabs"],
-    interests: ["Distributed Systems", "System Design", "Cryptography", "AI/LLM Tooling"]
-};
-```
-
-- 💼 Software Engineer I @ **project44**, backend systems, data pipelines, LLM-powered tooling
-- 🎓 GSoC 2025 @ **SugarLabs**: Three.js 3D Human Body Activity Tool + Stickman Animation Tool
 
 ---
 
@@ -54,41 +47,15 @@ const aditya = {
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AdityaKrSingh26&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaKrSingh26&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="170"/>
-</div>
-
----
-
 ## 🤝 Connect With Me
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://www.aditya-singh.me/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adityakrsingh26)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://myportfolio-three-tawny.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adityakrsingh26/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/_aditya_singh_26/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://adityakrsingh26.medium.com/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityakrsingh2604@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdityaKrSingh26)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AdityaKrSingh26&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-</div>
-
-<div align="center">
-  
-### 💭 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
-
-**⭐️ From [AdityaKrSingh26](https://github.com/AdityaKrSingh26) | Let's build something amazing together! 🚀**
 
 </div>

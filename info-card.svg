@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="194" viewBox="0 0 490 194">
+<style>
+  text { font-family: 'SFMono-Regular', Consolas, 'Fira Code', monospace; }
+  
+  .line { animation: typeIn 0.4s ease-out forwards; }
+  @keyframes typeIn {
+    0% { opacity: 0; transform: translateX(-8px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+</style>
+<rect width="490" height="194" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect width="490" height="34" rx="8" fill="#161b22"/>
+<rect y="26" width="490" height="8" fill="#161b22"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="17.0" r="6" fill="#ffbd2e"/>
+<circle cx="58" cy="17.0" r="6" fill="#27c93f"/>
+<text x="245.0" y="22.0" font-size="13" fill="#8b949e" text-anchor="middle">aditya@github</text>
+<g class="line" style="animation-delay:0ms" opacity="0"><text x="20" y="70" font-size="14" font-weight="700" fill="#7ee787">Now</text><text x="94" y="70" font-size="14" fill="#c9d1d9">Software Engineer I @ project44</text></g><g class="line" style="animation-delay:90ms" opacity="0"><text x="20" y="94" font-size="14" font-weight="700" fill="#7ee787">Prev</text><text x="94" y="94" font-size="14" fill="#c9d1d9">xAI (Specialist), GSoC 2025 @ SugarLabs</text></g><g class="line" style="animation-delay:180ms" opacity="0"><text x="20" y="118" font-size="14" font-weight="700" fill="#7ee787">Stack</text><text x="94" y="118" font-size="14" fill="#c9d1d9">Go, Java, Python, Spring Boot, PostgreSQL, Kafka</text></g><g class="line" style="animation-delay:270ms" opacity="0"><text x="20" y="142" font-size="14" font-weight="700" fill="#7ee787">AI/LLM</text><text x="94" y="142" font-size="14" fill="#c9d1d9">RAG, LangChain, LangGraph, MCP</text></g><g class="line" style="animation-delay:360ms" opacity="0"><text x="20" y="166" font-size="14" font-weight="700" fill="#7ee787">Notes</text><text x="94" y="166" font-size="14" fill="#c9d1d9">LeetCode top 3.28% (463) - 600+ DSA solved</text></g>
+</svg>
