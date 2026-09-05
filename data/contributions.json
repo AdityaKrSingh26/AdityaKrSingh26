@@ -2588,14 +2588,21 @@
       "date": "2026-09-04",
       "week": 52,
       "day": 5,
+      "level": 1,
+      "count": 1
+    },
+    {
+      "date": "2026-09-05",
+      "week": 52,
+      "day": 6,
       "level": 0,
       "count": 0
     }
   ],
   "stats": {
-    "total": 590,
+    "total": 591,
     "current_streak": 0,
-    "longest_streak": 34,
+    "longest_streak": 35,
     "best_day": {
       "date": "2026-08-04",
       "count": 32
@@ -2614,7 +2621,7 @@
       "2026-06": 58,
       "2026-07": 17,
       "2026-08": 336,
-      "2026-09": 3
+      "2026-09": 4
     }
   }
 }
